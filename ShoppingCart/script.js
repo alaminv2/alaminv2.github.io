@@ -110,5 +110,5 @@ function removeItem(e){
         Store.removeItemFromLS(product, price);
         elmnt.remove();
     }
-    // e.preventDefault()
+    e.preventDefault()
 }
