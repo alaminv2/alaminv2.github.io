@@ -4,7 +4,7 @@ let ans = Math.floor(Math.random() * 140 + 10);
 
 for( i = 1; i <= 3; i++){
     console.log(ans);
-    let num = parseInt(prompt('Guess a number between 10 to 50'));
+    let num = parseInt(prompt('Guess a number between 10 to 150'));
     if (ans === num){
         // alert('Congratulations You win.....');
         let h3 = document.createElement('h3');
