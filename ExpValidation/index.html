@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+        crossorigin="anonymous" />
+    <title>Validate</title>
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Validate Your expression</h1>
+    <select name="options" id="options">
+        <option value="0">Select Expression Type</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone Number</option>
+        <option value="zip">Post Code</option>
+        <option value="password">Password</option>
+    </select>
+
+    <ul id="error">
+
+    </ul>
+    <script src="script.js"></script>
+    <script src="./practice.js"></script>
+</body>
+
+</html>
