@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3 style="color: green;">Products</h3>
+
+        <table class="table table-hover text-center">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Add</th>
+                </tr>
+            </thead>
+            <tbody id="product-list">
+                <tr>
+                    <td>1</td>
+                    <td>Water Bottle</td>
+                    <td>50</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Door</td>
+                    <td>5000</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Book</td>
+                    <td>500</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Charger</td>
+                    <td>160</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Brush</td>
+                    <td>40</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bookmark</td>
+                    <td>70</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Glow Stick</td>
+                    <td>65</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Mirror</td>
+                    <td>130</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Shovel</td>
+                    <td>380</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Purse</td>
+                    <td>10000</td>
+                    <td><span class="btn btn-info btn-sm"><a style="color: white;" href="#"> Add to Cart</a></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr style="border: 1px solid red;">
+
+        <h3 style="color: green;">Cart</h3>
+        <table class="table table-light table-hover table-bordered">
+            <thead class="text-center">
+                <tr>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>price</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="cart-list" class="text-center">
+
+            </tbody>
+        </table>
+        <br><br><br>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
