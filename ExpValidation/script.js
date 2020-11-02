@@ -38,6 +38,11 @@ class UI{
     static showError(type){
         ul.innerHTML = '';
         if (type === 'email'){
+            var h = document.createElement('h3')
+            h.innerHTML = 'Invalid Email';
+            h.classList.add('error');
+            ul.appendChild(h);
+
             var li = document.createElement('li');
             li.innerHTML = 'Invali Email Address.'
             li.classList.add('error');
@@ -45,6 +50,11 @@ class UI{
         }
 
         else if(type === 'phone'){
+            var h = document.createElement('h3')
+            h.innerHTML = 'Invalid phone number';
+            h.classList.add('error');
+            ul.appendChild(h);
+
             var li = document.createElement('li');
             li.innerHTML = 'Maximum length is 11(without country code).'
             li.classList.add('error');
@@ -62,6 +72,11 @@ class UI{
         }   
         
         else if(type === 'zip'){
+            var h = document.createElement('h3')
+            h.innerHTML = 'Invalid post code';
+            h.classList.add('error');
+            ul.appendChild(h);
+
             var li = document.createElement('li');
             li.innerHTML = 'Maximum length is 4.'
             li.classList.add('error');
@@ -74,6 +89,11 @@ class UI{
         }
 
         else if(type === 'pass'){
+            var h = document.createElement('h3')
+            h.innerHTML = 'Invalid password';
+            h.classList.add('error');
+            ul.appendChild(h);
+
             var li = document.createElement('li');
             li.innerHTML = 'Maximum length is 16.'
             li.classList.add('error');
