@@ -26,6 +26,6 @@ for( i = 1; i <= 3; i++){
 if(check === false){
     let h3 = document.createElement('h3');
     h3.classList.add('wrong');
-    h3.innerHTML = 'You Lose...!';
+    h3.innerHTML = `You Lose...!   Answer is : ${ans}`;
     body.appendChild(h3);
 }
